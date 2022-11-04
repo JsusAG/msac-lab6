@@ -1,0 +1,17 @@
+bday = new Date(2022, 10, 4)
+bd_day = bday.getDate()
+bd_month = bday.getMonth()
+bd_year = bday.getFullYear()
+
+today = new Date()
+day = today.getDate()
+month = today.getMonth()
+year = today.getFullYear()
+
+if ( bd_month == month && bd_day == day) {
+    console.log("Happy Birthday!")
+    
+} else {
+    console.log("Sad panda")
+}
+
